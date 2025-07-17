@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚗 InsureQuick - Motor Insurance Quotation App
 
-## Getting Started
+A modern, fast, and intuitive web application for obtaining motor insurance quotations built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## ✨ Features
 
-```bash
+- **Multi-step Form Flow** - Intuitive 5-step process for gathering user information
+- **Skeleton Loading** - Professional loading states during form transitions
+- **Responsive Design** - Mobile-first approach with excellent mobile experience
+- **Accessibility** - WCAG compliant with proper ARIA labels and keyboard navigation
+- **Modern UI** - Clean, minimalistic design with smooth animations
+- **TypeScript** - Full type safety for robust development
+- **Real-time Quotes** - Dynamic quote generation with three coverage tiers
+
+## 🛠️ Tech Stack
+
+- **Next.js 14** - React framework with App Router
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **Lucide React** - Modern icon library
+- **React Hooks** - State management and side effects
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   git clone https://github.com/yourusername/motor-insurance-app.git
+   cd motor-insurance-app
+
+   Install dependencies
+npm install
+
+Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser
+Navigate to http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📋 Form Steps
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Vehicle Information - Car make, model, year, and VIN
+Personal Information - Name, contact details, and date of birth
+Address Information - Complete address with state selection
+Driving History - License details, accidents, and violations
+Quote Results - Three coverage options with recommendations
 
-## Learn More
+🎨 Design Features
 
-To learn more about Next.js, take a look at the following resources:
+Modern Color Palette - Carefully selected colors for excellent contrast
+Smooth Animations - Subtle transitions and hover effects
+Gradient Elements - Beautiful gradients for buttons and progress bars
+Card-based Layout - Clean, organized information presentation
+Loading States - Skeleton loaders for better perceived performance
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔧 Development
+npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Build for production
+npm run build
 
-## Deploy on Vercel
+# Start production server
+npm start
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Lint code
+npm run lint
+📱 Browser Support
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Chrome (latest)
+Firefox (latest)
+Safari (latest)
+Edge (latest)
+
+🤝 Contributing
+
+Fork the repository
+Create a feature branch (git checkout -b feature/amazing-feature)
+Commit your changes (git commit -m 'Add amazing feature')
+Push to the branch (git push origin feature/amazing-feature)
+Open a Pull Request
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+🙏 Acknowledgments
+
+Icons by Lucide
+Styling by Tailwind CSS
+Built with Next.js
+
+
+Built with ❤️ by Misheck Zimba
