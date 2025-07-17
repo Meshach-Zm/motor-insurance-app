@@ -23,7 +23,7 @@ A modern, fast, and intuitive web application for obtaining motor insurance quot
 ## 🚀 Getting Started
 
 1. **Clone the repository**
-   git clone https://github.com/yourusername/motor-insurance-app.git
+   git clone https://github.com/Meshach-Zm/motor-insurance-app.git
    cd motor-insurance-app
 
    Install dependencies
